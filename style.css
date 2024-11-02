@@ -17,6 +17,24 @@
     transition: background-color 0.3s ease;
     
 }
+
+.page1{
+    position: static;
+    z-index: -1;
+}
+
+.page{
+    position: static;
+    z-index: 100;
+}
+
+.child2{
+  
+    display: flex;
+    margin-left: 2.7rem;
+}
+
+
 .navbar.scrolled {
     background-color: #263bb6 /* Replace with your desired color */;
     box-shadow: 0 4px 8px rgba(0.1, 0.1, 0.1, 0.1);
@@ -92,13 +110,7 @@ a[href="#page5"] {
    
 }
 
-.child-3{
-   
-}
 
-.quote-1{
-
-}
 
 .picture-1{
     width: 65vh;
@@ -257,6 +269,8 @@ span{
 }
 
 .actual-button-1{
+    position: relative;
+    z-index: 50;
     background-color: transparent;
     font-size: 0.875rem;
     font-family: "Poppins", sans-serif; 
@@ -273,6 +287,8 @@ span{
 
 
 .social-medias{
+    position: relative;
+    z-index: 50;
     margin-top: 2rem;
     display: flex;
     gap: 1rem;
